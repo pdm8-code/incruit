@@ -60,6 +60,11 @@
                     prevEl: '.swiper-button-prev',
                 },
             });
+
+            // 탑버튼
+            $('.ask-btn-wrap button.top-btn').on('click',function(){
+                $('html,body').animate({scrollTop: 0}, 100);
+            });
         });
     </script>
 </head>
@@ -68,7 +73,7 @@
         <!-- 모바일 사이트 메뉴 -->
         <div class="sitemap">
             <div class="sitemap-top">
-                <a href="#" class="main-logo"></a>
+                <a href="#none" class="main-logo"></a>
                 <button type="button" class="close-btn">
                     <span></span>
                 </button>
@@ -76,7 +81,7 @@
                     <li class="intro-li">
                         <a href="#none" class="intro">솔루션소개</a>
                         <div class="intro-menu">
-                            <a href="#">
+                            <a href="#none">
                                 <span class="t-blue">ATS&CRM</span>
                                 <span class="t-text">채용관리솔루션</span>
                             </a>
@@ -102,10 +107,10 @@
                         </div>
                     </li>
                     <li>
-                        <a href="#">이용가이드</a>
+                        <a href="#none">이용가이드</a>
                     </li>
                     <li>
-                        <a href="#" class="t-blue">소식/블로그</a>
+                        <a href="#none" class="t-blue">소식/블로그</a>
                     </li>
                 </ul>
             </div>
@@ -123,43 +128,43 @@
                     <span></span>
                 </button>
                 <div class="main-logo">
-                    <a href="#"></a>
+                    <a href="#none"></a>
                 </div>
                 <ul>
                     <li>
-                        <a href="#" class="intro">솔루션소개</a>
+                        <a href="#none" class="intro">솔루션소개</a>
                         <div class="intro-menu">
-                            <a href="#">
+                            <a href="#none">
                                 <span class="t-blue">ATS & CRM</span>
                                 <span class="t-text">채용관리솔루션</span>
                             </a>
-                            <a href="#">
+                            <a href="#none">
                                 <span class="t-blue assess">
                                     ASSESS
                                     <em>NEW</em>
                                 </span>
                                 <span class="t-text">인재검증솔루션</span>
                             </a>
-                            <a href="#">
+                            <a href="#none">
                                 <span class="t-blue">Interview</span>
                                 <span class="t-text">면접솔루션</span>
                             </a>
-                            <a href="#">
+                            <a href="#none">
                                 <span class="t-blue">Proctor</span>
                                 <span class="t-text">시험감독솔루션</span>
                             </a>
-                            <a href="#">
+                            <a href="#none">
                                 <span class="t-blue">Reference Check</span>
                                 <span class="t-text">평판조회솔루션</span>
                             </a>
                         </div>
                     </li>
                     <li>
-                        <a href="#" class="sub-menu guide">이용가이드</a>
-                        <a href="#" class="sub-menu t-blue">소식/블로그</a>
+                        <a href="#none" class="sub-menu guide">이용가이드</a>
+                        <a href="#none" class="sub-menu t-blue">소식/블로그</a>
                     </li>
-                    <li><a href="#" class="btn requireBtn">도입문의</a></li>
-                    <li><a href="#" class="btn logBtn">로그인</a></li>
+                    <li><a href="#none" class="btn requireBtn">도입문의</a></li>
+                    <li><a href="#none" class="btn logBtn">로그인</a></li>
                 </ul>
             </div>
         </div>
