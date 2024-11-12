@@ -175,10 +175,6 @@ a .material-icons {
     outline: 0
 }
 
-a {
-    text-decoration: none;
-}
-
 a.none-underline {
     text-decoration: none
 }
@@ -2075,4 +2071,3 @@ html, body {
         background: url(/static/image/close.svg) no-repeat;
     }
 }
-
