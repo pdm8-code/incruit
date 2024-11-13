@@ -25,7 +25,13 @@ $(document).ready(function(){
   });
 
   //탑 버튼
-  $('.fixed-bottom').click(function(){
+  $('.top-btn').click(function(){
     $('html,body').animate({scrollTop:0},100);
+  });
+
+  $(window).resize(function(){
+    if($(this).width() > 768){
+      $('.sitemap').removeClass('active');
+    }
   });
 });
