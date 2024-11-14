@@ -5,7 +5,7 @@ $(document).ready(function(){
   $(".header .container button.btn-bar").on("click", function(){
       $(".sitemap").addClass("active");
       $(".background-black").addClass("active");
-      $('html, body').css({'overflow': 'hidden', 'height': '100%'});
+      $('html, body').css({overflow: 'hidden'});
       
   });
 
@@ -43,7 +43,7 @@ $(document).ready(function(){
     if($(this).width() > 768){
       $('.sitemap').removeClass('active');
       $(".background-black").removeClass("active");
-      $('html, body').css({'overflow': 'visible', 'height': 'none'});
+      $('html, body').css({overflow: 'visible'});
     }
   });
 
